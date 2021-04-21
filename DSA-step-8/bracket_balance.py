@@ -22,7 +22,8 @@ def isBalanced(brackets):
 		return False
 	return True
 
-if isBalanced(brackets):
-	print("Brackets are Balanced")
-else:
-	print("Brackets aren't Balanced")
+	if isBalanced(brackets):
+		print("Brackets are Balanced")
+	else:
+		print("Brackets aren't Balanced")
+isBalanced(brackets)
