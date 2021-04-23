@@ -45,6 +45,6 @@ stack_op = Mystack()
 
 stack_op.push(1)
 stack_op.show()
-stack_op.pop()
+stack_op.push(2)
 stack_op.show()
 stack_op.peek()
